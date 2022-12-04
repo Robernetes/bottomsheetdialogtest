@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_bottomsheet"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="100dp">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name" />
+
+        <Button
+            android:id="@+id/sumit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumit" />
+
+    </LinearLayout>
+
+</LinearLayout>
